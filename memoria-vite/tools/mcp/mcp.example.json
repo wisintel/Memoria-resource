@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "memoria-app": {
+      "command": "node",
+      "args": ["/Users/davidhall/Developer/memoria/tools/mcp/server.mjs"],
+      "cwd": "/Users/davidhall/Developer/memoria"
+    }
+  }
+}

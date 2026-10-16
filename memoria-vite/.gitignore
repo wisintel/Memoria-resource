@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.DS_Store
+*.tsbuildinfo
+/app/node_modules
+tools/marker/
+Mom.md
+Untitled.md
+app/.DS_Store
+.obsidian/workspace.json

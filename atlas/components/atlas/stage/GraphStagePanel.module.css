@@ -1,0 +1,78 @@
+.graphFlow :global(.react-flow__pane) {
+  cursor: grab;
+}
+
+.graphFlow :global(.react-flow__pane.dragging) {
+  cursor: grabbing;
+}
+
+.graphFlowDragging :global(.react-flow__pane) {
+  cursor: copy;
+}
+
+.graphFlow :global(.react-flow__edge-path) {
+  stroke: color-mix(in oklch, var(--primary) 72%, transparent);
+  stroke-linecap: round;
+  stroke-width: 1.45;
+  filter: drop-shadow(0 0 4px color-mix(in oklch, var(--primary) 18%, transparent));
+}
+
+.graphFlow :global(.react-flow__edge.animated .react-flow__edge-path) {
+  animation: graphEdgeFlow 2.8s linear infinite;
+  stroke-dasharray: 7 18;
+}
+
+.graphFlow :global(.react-flow__edge.selected .react-flow__edge-path),
+.graphFlow :global(.react-flow__edge:focus .react-flow__edge-path) {
+  stroke: var(--chart-2);
+  stroke-width: 2;
+  filter: drop-shadow(0 0 7px color-mix(in oklch, var(--primary) 48%, transparent));
+}
+
+.graphFlow :global(.react-flow__edge-textbg) {
+  fill: color-mix(in oklch, var(--background) 82%, transparent);
+}
+
+.graphFlow :global(.react-flow__edge-text) {
+  fill: color-mix(in oklch, var(--muted-foreground) 72%, var(--primary) 28%);
+  font-family: var(--font-mono), "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  font-size: 9px;
+}
+
+@keyframes graphEdgeFlow {
+  to {
+    stroke-dashoffset: -25;
+  }
+}
+
+.graphControls {
+  top: 50% !important;
+  right: 16px !important;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 9px;
+  background:
+    linear-gradient(
+      180deg,
+      color-mix(in oklch, var(--card) 95%, transparent),
+      color-mix(in oklch, var(--background) 95%, transparent)
+    ),
+    var(--card);
+  box-shadow: 0 16px 42px -30px color-mix(in oklch, var(--background) 90%, transparent);
+  transform: translateY(-50%);
+}
+
+.graphControls :global(button) {
+  border-bottom: 1px solid var(--border);
+  background: transparent;
+  color: var(--muted-foreground);
+}
+
+.graphControls :global(button:hover) {
+  background: color-mix(in oklch, var(--accent) 70%, transparent);
+  color: var(--primary);
+}
+
+.graphControls :global(button svg) {
+  fill: currentColor;
+}

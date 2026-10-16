@@ -1,0 +1,8 @@
+[mcp_servers.memoria]
+command = "bash"
+args = ["-lc", "cd /Users/davidhall/Developer/memoria && exec npm run --silent mcp:memoria"]
+startup_timeout_sec = 20
+tool_timeout_sec = 60
+default_tools_approval_mode = "approve"
+[mcp_servers.memoria.tools.wipe_user_data]
+approval_mode = "prompt"

@@ -1,9 +1,0 @@
-[submodule "atlas"]
-	path = atlas
-	url = https://github.com/wisintel/atlas.git
-[submodule "memoria-atlas"]
-	path = memoria-atlas
-	url = https://github.com/wisintel/memoria-atlas.git
-[submodule "memoria-vite"]
-	path = memoria-vite
-	url = https://github.com/wisintel/memoria-vite.git

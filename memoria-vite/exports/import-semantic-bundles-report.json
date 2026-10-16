@@ -1,0 +1,125 @@
+{
+  "imported_at": "2026-06-26T02:33:43.698Z",
+  "destination_domain_id": "domain_memoria",
+  "bundles": {
+    "memoria": {
+      "schema": "memoria.domain.bundle.v1",
+      "source": {
+        "app": "Memoria",
+        "database_path": "app/data/memoria.sqlite",
+        "domain_id": "domain_3af8464808174b54be",
+        "domain_slug": "memoria",
+        "domain_label": "Memoria"
+      },
+      "summary": {
+        "item_classes": 10,
+        "types": 38,
+        "items": 110,
+        "concepts": 30,
+        "entities": 0,
+        "clusters": 0,
+        "reference_cards": 0,
+        "nodes": 0,
+        "documents": 4,
+        "claims": 42,
+        "relationships": 34,
+        "edges": 34,
+        "views": 1,
+        "view_nodes": 0,
+        "view_relationships": 0,
+        "concept_types": {
+          "Process": 15,
+          "Operation Class": 1,
+          "Knowledge Layer": 5,
+          "Process Pattern": 1,
+          "Concept Class": 2,
+          "Capture Guide": 1,
+          "Knowledge Distillation Principle": 1,
+          "Methodology": 1,
+          "Operation": 1,
+          "Linguistic Phenomenon": 1,
+          "Principle": 1
+        },
+        "entity_types": {},
+        "claim_types": {
+          "Definition": 3,
+          "Causal": 1,
+          "Principle": 8,
+          "Constraint": 1,
+          "Requirement": 14,
+          "Boundary": 3,
+          "Classification": 1,
+          "Process Role": 5,
+          "State": 1,
+          "Extraction Requirement": 1,
+          "Provenance Requirement": 1,
+          "Admission Requirement": 1,
+          "Directionality Requirement": 1,
+          "Vocabulary Signal": 1
+        },
+        "relationship_types": {
+          "addresses": 1,
+          "classified as": 8,
+          "part of": 12,
+          "phase of": 1,
+          "structures": 1,
+          "extracts": 3,
+          "uses": 2,
+          "precedes": 1,
+          "normalizes": 1,
+          "governs": 4
+        }
+      }
+    },
+    "atlas": {
+      "schema": "memoria.atlas-domain.bundle.v1",
+      "source": {
+        "app": "Atlas",
+        "domain_id": "0af1966a-7e28-49d1-80ea-7d70af263808",
+        "domain_slug": "atlas",
+        "domain_label": "Atlas"
+      },
+      "summary": {
+        "classes": 15,
+        "types": 78,
+        "kinds": 0,
+        "statuses": 5,
+        "entities": 22,
+        "claims": 42,
+        "relationships": 0,
+        "aliases": 1,
+        "documents": 40,
+        "views": 2,
+        "view_nodes": 1,
+        "view_relationships": 0
+      }
+    }
+  },
+  "counts": {
+    "documents_inserted": 44,
+    "subjects_inserted": 48,
+    "subjects_merged": 4,
+    "lexicalizations_inserted": 5,
+    "claims_inserted": 84,
+    "claim_targets_inserted": 84,
+    "relationships_inserted": 34,
+    "evidence_inserted": 166,
+    "evidence_links_inserted": 166,
+    "skipped_claim_targets": 0,
+    "skipped_relationships": 0
+  },
+  "skipped": {
+    "claim_targets": [],
+    "relationships": []
+  },
+  "final_counts": {
+    "documents": 44,
+    "subjects": 48,
+    "claims": 84,
+    "claim_targets": 84,
+    "relationships": 34,
+    "lexicalizations": 5,
+    "evidence": 166,
+    "evidence_links": 166
+  }
+}

@@ -1,0 +1,8 @@
+CREATE TABLE classes (
+  id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+  label TEXT NOT NULL,
+  table_name TEXT NOT NULL UNIQUE,
+  purpose TEXT,
+  created_at BIGINT NOT NULL,
+  updated_at BIGINT NOT NULL
+);
