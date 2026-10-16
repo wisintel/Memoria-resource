@@ -1,0 +1,1 @@
+ALTER TABLE "pipeline_run_steps" ADD COLUMN "retry_count" integer DEFAULT 0 NOT NULL;

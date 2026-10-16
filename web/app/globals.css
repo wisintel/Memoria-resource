@@ -1,0 +1,303 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
+  --font-mono: var(--font-mono);
+  --font-heading: var(--font-mono);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.85);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.1);
+  --radius-2xl: calc(var(--radius) * 1.2);
+  --radius-3xl: calc(var(--radius) * 1.5);
+  --radius-4xl: calc(var(--radius) * 1.8);
+}
+
+:root {
+  --background: #e9edf2;
+  --foreground: #1a1f28;
+  --card: #f7f9fc;
+  --card-foreground: #1a1f28;
+  --popover: #f7f9fc;
+  --popover-foreground: #1a1f28;
+  --primary: oklch(0.546 0.245 262.881);
+  --primary-foreground: #ffffff;
+  --secondary: #dde3ec;
+  --secondary-foreground: #1a1f28;
+  --muted: #dde3ec;
+  --muted-foreground: #5b6675;
+  --accent: oklch(0.546 0.245 262.881 / 0.12);
+  --accent-foreground: oklch(0.546 0.245 262.881);
+  --destructive: #c0392f;
+  --border: #d2d9e3;
+  --input: #d2d9e3;
+  --ring: oklch(0.546 0.245 262.881);
+  --chart-1: oklch(0.546 0.245 262.881);
+  --chart-2: #5b7fd0;
+  --chart-3: #6b7588;
+  --chart-4: #2f8fa6;
+  --chart-5: #6a5acb;
+  --radius: 0.625rem;
+  --sidebar: #bfc6d1;
+  --sidebar-foreground: #1a1f28;
+  --sidebar-primary: oklch(0.546 0.245 262.881);
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: oklch(0.546 0.245 262.881 / 0.12);
+  --sidebar-accent-foreground: oklch(0.546 0.245 262.881);
+  --sidebar-border: #a6aebb;
+  --sidebar-ring: oklch(0.546 0.245 262.881);
+}
+
+.dark {
+  --background: #0e1013;
+  --foreground: #e8eaed;
+  --card: #1a1d21;
+  --card-foreground: #e8eaed;
+  --popover: #1a1d21;
+  --popover-foreground: #e8eaed;
+  --primary: oklch(0.546 0.245 262.881);
+  --primary-foreground: #ffffff;
+  --secondary: #22262b;
+  --secondary-foreground: #e8eaed;
+  --muted: #22262b;
+  --muted-foreground: #8b8f96;
+  --accent: oklch(0.546 0.245 262.881 / 0.12);
+  --accent-foreground: #ffffff;
+  --destructive: #e06b86;
+  --border: #2e333a;
+  --input: #22262b;
+  --ring: oklch(0.546 0.245 262.881);
+  --chart-1: oklch(0.546 0.245 262.881);
+  --chart-2: #a8c0ff;
+  --chart-3: #8b8f96;
+  --chart-4: #5e7fe0;
+  --chart-5: #c7ced9;
+  --sidebar: #15181e;
+  --sidebar-foreground: #e8eaed;
+  --sidebar-primary: oklch(0.546 0.245 262.881);
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: oklch(0.546 0.245 262.881 / 0.12);
+  --sidebar-accent-foreground: #e8eaed;
+  --sidebar-border: #2e333a;
+  --sidebar-ring: oklch(0.546 0.245 262.881);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  html {
+    @apply font-sans;
+  }
+}
+
+.domain-map-flow .react-flow__controls,
+.domain-map-controls {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: 0 12px 28px -20px rgb(0 0 0 / 0.65);
+}
+
+.domain-map-flow .react-flow__controls-button {
+  background: var(--card);
+  border-color: var(--border);
+  color: var(--foreground);
+}
+
+.domain-map-flow .react-flow__controls-button:hover {
+  background: var(--muted);
+}
+
+.domain-map-flow .react-flow__controls-button[aria-pressed="true"] {
+  background: var(--primary);
+  color: var(--primary-foreground);
+}
+
+.domain-map-flow .react-flow__controls-button:disabled {
+  color: var(--muted-foreground);
+  opacity: 0.55;
+}
+
+.domain-map-node {
+  position: relative;
+  display: grid;
+  min-width: 92px;
+  max-width: 190px;
+  justify-items: center;
+  gap: 8px;
+  color: color-mix(in oklch, var(--foreground) 84%, var(--primary) 16%);
+  font-family: var(--font-sans);
+  line-height: 1.2;
+  text-align: center;
+  text-shadow: 0 1px 8px
+    color-mix(in oklch, var(--background) 52%, transparent);
+}
+
+.domain-map-node.is-selected {
+  color: var(--foreground);
+  text-shadow:
+    0 1px 8px color-mix(in oklch, var(--background) 48%, transparent),
+    0 0 18px color-mix(in oklch, var(--primary) 28%, transparent);
+}
+
+.domain-map-node-dot {
+  width: 13px;
+  height: 13px;
+  border: 2px solid
+    color-mix(in oklch, var(--primary) 78%, var(--foreground) 22%);
+  border-radius: 999px;
+  background: color-mix(in oklch, var(--background) 88%, var(--primary) 12%);
+  box-shadow:
+    0 0 0 4px color-mix(in oklch, var(--primary) 12%, transparent),
+    0 0 12px color-mix(in oklch, var(--primary) 34%, transparent),
+    inset 0 0 6px color-mix(in oklch, var(--foreground) 38%, transparent);
+  transition:
+    background 140ms ease,
+    border-color 140ms ease,
+    box-shadow 140ms ease;
+}
+
+.domain-map-node.is-selected .domain-map-node-dot {
+  border-color: color-mix(
+    in oklch,
+    var(--foreground) 74%,
+    var(--primary) 26%
+  );
+  background: color-mix(in oklch, var(--primary) 74%, var(--foreground) 26%);
+  box-shadow:
+    0 0 0 7px color-mix(in oklch, var(--primary) 20%, transparent),
+    0 0 22px color-mix(in oklch, var(--primary) 58%, transparent),
+    inset 0 0 8px color-mix(in oklch, var(--foreground) 55%, transparent);
+}
+
+.domain-map-node-collapse-count {
+  position: absolute;
+  top: -7px;
+  left: calc(50% + 5px);
+  min-width: 18px;
+  height: 18px;
+  padding: 0 5px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--primary);
+  color: var(--primary-foreground);
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: center;
+  box-shadow: 0 8px 18px -12px rgb(0 0 0 / 0.8);
+}
+
+.domain-map-node-label {
+  display: -webkit-box;
+  max-width: 190px;
+  overflow: hidden;
+  color: var(--foreground);
+  font-size: 13.5px;
+  font-weight: 580;
+  line-height: 1.16;
+  overflow-wrap: anywhere;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.domain-map-node-type {
+  max-width: 100%;
+  overflow: hidden;
+  color: var(--muted-foreground);
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 560;
+  letter-spacing: 0;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.domain-map-node-handle {
+  width: 52px;
+  height: 40px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  cursor: crosshair;
+  opacity: 0;
+}
+
+.domain-map-flow .react-flow__edge-path {
+  filter: drop-shadow(
+    0 0 4px color-mix(in oklch, var(--primary) 18%, transparent)
+  );
+  stroke-linecap: round;
+}
+
+.domain-map-flow .react-flow__edge.selected .react-flow__edge-path,
+.domain-map-flow .react-flow__edge:focus .react-flow__edge-path {
+  stroke: var(--primary);
+  stroke-width: 2;
+  filter: drop-shadow(
+    0 0 7px color-mix(in oklch, var(--primary) 44%, transparent)
+  );
+}
+
+.domain-map-flow .react-flow__edge-text {
+  fill: color-mix(in oklch, var(--muted-foreground) 86%, transparent);
+  font-size: 11px;
+  font-weight: 560;
+  letter-spacing: 0;
+  pointer-events: none;
+}
+
+.domain-map-flow .react-flow__edge-textbg {
+  fill: color-mix(in oklch, var(--card) 72%, transparent);
+  stroke: color-mix(in oklch, var(--border) 52%, transparent);
+  stroke-width: 1;
+}
+
+.domain-map-flow .react-flow__connection-path {
+  filter: drop-shadow(
+    0 0 4px color-mix(in oklch, var(--primary) 18%, transparent)
+  );
+  stroke-linecap: round;
+}

@@ -1,0 +1,1134 @@
+[
+  {
+    "id": "73c3b9ea-0055-48f4-8b43-c92fe8f61025",
+    "run_id": "aaf40c77-9372-41c9-92c3-68052ee61541",
+    "step": "explicit_pass",
+    "step_order": 1,
+    "status": "failed",
+    "model": "codex:gpt-5.4-mini",
+    "prompt_version": "explicit-pass-draft-v3",
+    "effort": "low",
+    "input_context": {
+      "document": {
+        "id": "22065602-2864-4f74-a2d8-f85022eb1aa2",
+        "label": "extraction cycle",
+        "documentForm": "markdown document",
+        "contentSha256": "e362256dad9966e915d056618b5027fc786cb32d188091207d0c6036f646c62a",
+        "structuralNotes": "markdown; has headings; has lists; has links"
+      },
+      "domainSlug": "tool-testing-domain",
+      "sourceUnits": [
+        {
+          "id": "dc531d36-50b2-4290-aa1a-d5ef173e76f4",
+          "position": 0,
+          "unitType": "markdown_shard",
+          "sizeBytes": 3427,
+          "headingPath": [],
+          "contentSha256": "e362256dad9966e915d056618b5027fc786cb32d188091207d0c6036f646c62a"
+        }
+      ],
+      "contractVersion": "explicit-pass-draft-v3",
+      "extractionContext": {
+        "document": {
+          "label": "extraction cycle",
+          "documentForm": "markdown document",
+          "structuralNotes": "markdown; has headings; has lists; has links"
+        },
+        "documentId": "22065602-2864-4f74-a2d8-f85022eb1aa2",
+        "guidanceBlock": {
+          "body": "Domain: Tool Testing Domain (b9e69e92-1623-4b56-af15-8b0c08849039) Document identification: markdown document; markdown; has headings; has lists; has links",
+          "bodyLength": 155,
+          "bodyTruncated": false
+        }
+      }
+    },
+    "raw_output": {
+      "calls": [
+        {
+          "raw": {
+            "codex": {
+              "status": "completed",
+              "timing": {
+                "spawnMs": 6,
+                "completedMs": 118223,
+                "jsonParseMs": 1,
+                "turnStartMs": 4,
+                "firstTokenMs": 10144,
+                "initializeMs": 94,
+                "threadStartMs": 1203,
+                "schemaValidationMs": 6
+              },
+              "turnId": "019f383a-2601-70d1-8b82-491e6711bf0a",
+              "threadId": "019f383a-2150-7191-b5e3-de5c474f4554",
+              "tokenUsage": {
+                "last": {
+                  "inputTokens": 18262,
+                  "totalTokens": 26369,
+                  "outputTokens": 8107,
+                  "cachedInputTokens": 4480,
+                  "reasoningOutputTokens": 388
+                },
+                "total": {
+                  "inputTokens": 18262,
+                  "totalTokens": 26369,
+                  "outputTokens": 8107,
+                  "cachedInputTokens": 4480,
+                  "reasoningOutputTokens": 388
+                },
+                "modelContextWindow": 258400
+              },
+              "diagnostics": {
+                "events": [
+                  {
+                    "method": "remoteControl/status/changed"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "thread/started"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "thread/status/changed"
+                  },
+                  {
+                    "method": "turn/started"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "warning"
+                  },
+                  {
+                    "method": "item/started"
+                  },
+                  {
+                    "method": "item/completed"
+                  },
+                  {
+                    "method": "item/started"
+                  },
+                  {
+                    "method": "item/completed"
+                  },
+                  {
+                    "method": "item/started"
+                  },
+                  {
+                    "method": "item/agentMessage/delta",
+                    "deltaLength": 2
+                  },
+                  {
+                    "method": "item/agentMessage/delta",
+                    "deltaLength": 6
+                  },
+                  {
+                    "method": "item/agentMessage/delta",
+                    "deltaLength": 5
+                  },
+                  {
+                    "method": "item/agentMessage/delta",
+                    "deltaLength": 3
+                  },
+                  {
+                    "method": "item/agentMessage/delta",
+                    "deltaLength": 8
+                  },
+                  {
+                    "method": "item/agentMessage/delta",
+                    "deltaLength": 6
+                  },
+                  {
+                    "method": "item/agentMessage/delta",
+                    "deltaLength": 2
+                  },
+                  {
+                    "method": "item/agentMessage/delta",
+                    "deltaLength": 5
+                  }
+                ],
+                "stderr": [
+                  "{\"timestamp\":\"2026-07-06T16:19:21.614537Z\",\"level\":\"WARN\",\"fields\":{\"message\":\"ignoring interface.defaultPrompt: maximum of 3 prompts is supported\",\"path\":\"/Users/davidhall/.codex/plugins/cache/openai-primary-runtime/template-creator/26.630.12135/.codex-plugin/plugin.json\"},\"target\":\"codex_core_plugins::manifest\"}",
+                  "{\"timestamp\":\"2026-07-06T16:19:21.615488Z\",\"level\":\"WARN\",\"fields\":{\"message\":\"ignoring interface.defaultPrompt: maximum of 3 prompts is supported\",\"path\":\"/Users/davidhall/.codex/plugins/cache/openai-primary-runtime/template-creator/26.630.12135/.codex-plugin/plugin.json\"},\"target\":\"codex_core_plugins::manifest\"}",
+                  "{\"timestamp\":\"2026-07-06T16:19:21.915948Z\",\"level\":\"WARN\",\"fields\":{\"message\":\"ignoring interface.defaultPrompt[0]: prompt must be at most 128 characters\",\"path\":\"/Users/davidhall/.codex/.tmp/plugins/plugins/ngs-analysis/.codex-plugin/plugin.json\"},\"target\":\"codex_core_plugins::manifest\"}",
+                  "{\"timestamp\":\"2026-07-06T16:19:21.918293Z\",\"level\":\"WARN\",\"fields\":{\"message\":\"ignoring interface.defaultPrompt[0]: prompt must be at most 128 characters\",\"path\":\"/Users/davidhall/.codex/.tmp/plugins/plugins/ngs-analysis/.codex-plugin/plugin.json\"},\"target\":\"codex_core_plugins::manifest\"}",
+                  "{\"timestamp\":\"2026-07-06T16:19:22.601372Z\",\"level\":\"WARN\",\"fields\":{\"message\":\"state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\"},\"target\":\"codex_rollout::list\"}"
+                ],
+                "eventCount": 7729,
+                "stderrCount": 29
+              },
+              "promptMetrics": {
+                "sections": [
+                  {
+                    "chars": 128,
+                    "label": "bridge_instructions",
+                    "estimatedTokens": 32
+                  },
+                  {
+                    "chars": 1288,
+                    "label": "system",
+                    "estimatedTokens": 322
+                  },
+                  {
+                    "chars": 3532,
+                    "label": "extraction_prompt",
+                    "estimatedTokens": 883
+                  },
+                  {
+                    "chars": 117,
+                    "label": "output_contract",
+                    "estimatedTokens": 30
+                  }
+                ],
+                "totalChars": 5065,
+                "totalEstimatedTokens": 1267
+              },
+              "validationError": {
+                "formErrors": [],
+                "fieldErrors": {
+                  "claims": [
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined"
+                  ]
+                }
+              },
+              "tokenUsageEvents": [
+                {
+                  "turnId": "019f383a-2601-70d1-8b82-491e6711bf0a",
+                  "threadId": "019f383a-2150-7191-b5e3-de5c474f4554",
+                  "tokenUsage": {
+                    "last": {
+                      "inputTokens": 18262,
+                      "totalTokens": 26369,
+                      "outputTokens": 8107,
+                      "cachedInputTokens": 4480,
+                      "reasoningOutputTokens": 388
+                    },
+                    "total": {
+                      "inputTokens": 18262,
+                      "totalTokens": 26369,
+                      "outputTokens": 8107,
+                      "cachedInputTokens": 4480,
+                      "reasoningOutputTokens": 388
+                    },
+                    "modelContextWindow": 258400
+                  }
+                }
+              ]
+            },
+            "finalText": "{\"schema_name\":\"explicit_claim_drafts\",\"claims\":[{\"claim_id\":\"c001\",\"text\":\"id is memoria-extraction-cycle-scaffold.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"memoria-extraction-cycle-scaffold\",\"role\":\"g_object\",\"kind_hint\":\"object\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"--- id: memoria-extraction-cycle-scaffold\"}]},{\"claim_id\":\"c002\",\"text\":\"type is reference.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"reference\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"id: memoria-extraction-cycle-scaffold type: reference\"}]},{\"claim_id\":\"c003\",\"text\":\"description is \\\"Superseded Memoria extraction cycle scaffold retained for open bundle schema questions.\\\"\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"Superseded Memoria extraction cycle scaffold retained for open bundle schema questions.\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"type: reference description: Superseded Memoria\"}]},{\"claim_id\":\"c004\",\"text\":\"created is \\\"2026-07-06\\\".\",\"assertion\":\"explicit\",\"mentions\":[],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"description: Superseded Memoria extraction cycle\"}]},{\"claim_id\":\"c005\",\"text\":\"updated is \\\"2026-07-06\\\".\",\"assertion\":\"explicit\",\"mentions\":[],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"created: \\\"2026-07-06\\\" updated: \\\"2026-07-06\\\"\"}]},{\"claim_id\":\"c006\",\"text\":\"state is superseded.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"superseded\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"updated: \\\"2026-07-06\\\" state: superseded\"}]},{\"claim_id\":\"c007\",\"text\":\"status is developing.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"developing\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"state: superseded status: developing\"}]},{\"claim_id\":\"c008\",\"text\":\"depends-on includes memoria-distillation-cycle.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"memoria-distillation-cycle\",\"role\":\"g_object\",\"kind_hint\":\"object\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"depends-on: - memoria-distillation-cycle\"}]},{\"claim_id\":\"c009\",\"text\":\"depends-on includes memoria-meta-ontology.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"memoria-meta-ontology\",\"role\":\"g_object\",\"kind_hint\":\"object\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"- memoria-distillation-cycle - memoria-meta-ontology\"}]},{\"claim_id\":\"c010\",\"text\":\"Extraction Cycle — Scaffold is superseded.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"Extraction Cycle — Scaffold\",\"role\":\"g_subject\",\"kind_hint\":\"concept\"},{\"surface\":\"superseded\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"# Extraction Cycle — Scaffold\"}]},{\"claim_id\":\"c011\",\"text\":\"Extraction Cycle — Scaffold was superseded 2026-07-04 by Phase 2 of 05-distillation-cycle.md.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"Extraction Cycle — Scaffold\",\"role\":\"g_subject\",\"kind_hint\":\"concept\"},{\"surface\":\"Phase 2\",\"role\":\"other\",\"kind_hint\":\"event\"},{\"surface\":\"05-distillation-cycle.md\",\"role\":\"g_object\",\"kind_hint\":\"object\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"_**Superseded 2026-07-04** by Phase 2 of\"}]},{\"claim_id\":\"c012\",\"text\":\"Phase 2 of 05-distillation-cycle.md renamed steps to Capture / Inference / Assembly.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"Phase 2\",\"role\":\"g_subject\",\"kind_hint\":\"event\"},{\"surface\":\"05-distillation-cycle.md\",\"role\":\"g_object\",\"kind_hint\":\"object\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"(steps renamed Capture / Inference / Assembly;\"}]},{\"claim_id\":\"c013\",\"text\":\"Phase 2 of 05-distillation-cycle.md moved sharding to Preparation.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"Phase 2\",\"role\":\"g_subject\",\"kind_hint\":\"event\"},{\"surface\":\"Preparation\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"sharding moved to Preparation; atomization\"}]},{\"claim_id\":\"c014\",\"text\":\"Phase 2 of 05-distillation-cycle.md folded atomization and classification into the passes.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"Phase 2\",\"role\":\"g_subject\",\"kind_hint\":\"event\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"atomization and classification folded into the passes;\"}]},{\"claim_id\":\"c015\",\"text\":\"Phase 2 of 05-distillation-cycle.md moved dedup and lint into Assembly.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"Phase 2\",\"role\":\"g_subject\",\"kind_hint\":\"event\"},{\"surface\":\"Assembly\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"dedup and lint into Assembly). Kept\"}]},{\"claim_id\":\"c016\",\"text\":\"The scaffold text is kept for the open ⧠ items below, which transfer to the bundle schema discussion.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"open ⧠ items\",\"role\":\"g_object\",\"kind_hint\":\"concept\"},{\"surface\":\"bundle schema discussion\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"Kept for the open ⧠ items below,\"}]},{\"claim_id\":\"c017\",\"text\":\"The Contract says one clean markdown document comes in.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"Contract\",\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"**Contract.** One clean markdown document in\"}]},{\"claim_id\":\"c018\",\"text\":\"The Contract says one bundle goes out.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"Contract\",\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"document in (with stable document identity\"}]},{\"claim_id\":\"c019\",\"text\":\"The Contract says document identity is stable from preparation.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"Contract\",\"role\":\"g_subject\",\"kind_hint\":\"concept\"},{\"surface\":\"preparation\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"with stable document identity from preparation),\"}]},{\"claim_id\":\"c020\",\"text\":\"The Contract says extraction is stateless (I5).\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"I5\",\"role\":\"other\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"one bundle out. Stateless (I5): no\"}]},{\"claim_id\":\"c021\",\"text\":\"The Contract says extraction has no memory of the graph.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"graph\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"Stateless (I5): no memory of the graph,\"}]},{\"claim_id\":\"c022\",\"text\":\"The Contract says extraction has no hints from the graph.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"graph\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"no memory of the graph, no hints\"}]},{\"claim_id\":\"c023\",\"text\":\"The Contract says extraction has no structure in the output (I2).\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"I2\",\"role\":\"other\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"hints from it, no structure in the\"}]},{\"claim_id\":\"c024\",\"text\":\"The extraction system is the model-heavy zone of the system.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"model-heavy zone\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"Extraction is the model-heavy zone of the\"}]},{\"claim_id\":\"c025\",\"text\":\"The extraction system's discipline comes not from determinism but from P1's tests constraining what it may emit.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"P1\",\"role\":\"other\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"discipline comes not from determinism but\"}]},{\"claim_id\":\"c026\",\"text\":\"Stage 1 is Explicit claim pass.\",\"assertion\":\"explicit\",\"mentions\":[],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"1. **Explicit claim pass.** Read\"}]},{\"claim_id\":\"c027\",\"text\":\"Stage 1 reads the document.\",\"assertion\":\"explicit\",\"mentions\":[],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"1. **Explicit claim pass.** Read the document;\"}]},{\"claim_id\":\"c028\",\"text\":\"Stage 1 captures every assertion the text actually makes.\",\"assertion\":\"explicit\",\"mentions\":[],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"capture every assertion the text actually makes,\"}]},{\"claim_id\":\"c029\",\"text\":\"Stage 1 captures location provenance per claim.\",\"assertion\":\"explicit\",\"mentions\":[],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"with location provenance per claim.\"}]},{\"claim_id\":\"c030\",\"text\":\"Stage 2 is Inferred claim pass.\",\"assertion\":\"explicit\",\"mentions\":[],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"2. **Inferred claim pass.** Capture\"}]},{\"claim_id\":\"c031\",\"text\":\"Stage 2 captures assertions that follow from the text but are not stated.\",\"assertion\":\"explicit\",\"mentions\":[],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"Capture assertions that follow from the text\"}]},{\"claim_id\":\"c032\",\"text\":\"Stage 2 includes the invisible middle claims of causal language.\",\"assertion\":\"explicit\",\"mentions\":[],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"but are not stated — including\"}]},{\"claim_id\":\"c033\",\"text\":\"Stage 2 flags every inferred claim as inferred.\",\"assertion\":\"explicit\",\"mentions\":[],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"Every inferred claim is flagged\"}]},{\"claim_id\":\"c034\",\"text\":\"Stage 2 carries the explicit claims it derives from as its evidence base (P6).\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"P6\",\"role\":\"other\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"`inferred` and carries the explicit claims\"}]},{\"claim_id\":\"c035\",\"text\":\"Stage 3 is Atomization.\",\"assertion\":\"explicit\",\"mentions\":[],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"3. **Atomization.** Apply P1's\"}]},{\"claim_id\":\"c036\",\"text\":\"Stage 3 applies P1's three tests to every claim.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"P1\",\"role\":\"other\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"3. **Atomization.** Apply P1's three tests\"}]},{\"claim_id\":\"c037\",\"text\":\"Stage 3 splits compounds.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"compounds\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"tests to every claim: split compounds,\"}]},{\"claim_id\":\"c038\",\"text\":\"Stage 3 verifies single truth value by negation.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"negation\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"verify single truth value by negation,\"}]},{\"claim_id\":\"c039\",\"text\":\"Stage 3 rewrites until standalone.\",\"assertion\":\"explicit\",\"mentions\":[],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"rewrite until standalone.\"}]},{\"claim_id\":\"c040\",\"text\":\"Stage 3 resolves coreference in the standalone rewrite.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"coreference\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"The standalone rewrite is where coreference\"}]},{\"claim_id\":\"c041\",\"text\":\"Stage 3 can rewrite \\\"it orbits the sun\\\" to \\\"Jupiter orbits the Sun\\\".\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"it orbits the sun\",\"role\":\"g_object\",\"kind_hint\":\"concept\"},{\"surface\":\"Jupiter orbits the Sun\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"\\\"it orbits the sun\\\" becomes \\\"Jupiter orbits the\"}]},{\"claim_id\":\"c042\",\"text\":\"Stage 3 keeps discourse context still existing.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"discourse context\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"\\\"Jupiter orbits the Sun\\\" here, while discourse\"}]},{\"claim_id\":\"c043\",\"text\":\"Qualifiers stay attached in Stage 3.\",\"assertion\":\"explicit\",\"mentions\":[],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"Qualifiers stay attached (P1/P5): time,\"}]},{\"claim_id\":\"c044\",\"text\":\"Time, units, and conditions are part of the claim.\",\"assertion\":\"explicit\",\"mentions\":[],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"time, units, conditions are part of the claim.\"}]},{\"claim_id\":\"c045\",\"text\":\"Stage 4 is Classification.\",\"assertion\":\"explicit\",\"mentions\":[],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"4. **Classification.** Tag each claim\"}]},{\"claim_id\":\"c046\",\"text\":\"Stage 4 tags each claim with one of the seven claim kinds (02-meta-ontology).\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"02-meta-ontology\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"Tag each claim with one of the seven\"}]},{\"claim_id\":\"c047\",\"text\":\"The scaffold has an open question about whether mentions also get proposed subject-kind tags (actor/object/concept/event) at stage 4.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"actor/object/concept/event\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"⧠ Open: do mentions also get proposed\"}]},{\"claim_id\":\"c048\",\"text\":\"Admission may overrule proposed subject-kind tags.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"admission\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"as *suggestions* admission may overrule — or\"}]},{\"claim_id\":\"c049\",\"text\":\"The scaffold has an open question about whether kind assignment is entirely admission's job.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"admission\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"or is kind assignment admission's job entirely?\"}]},{\"claim_id\":\"c050\",\"text\":\"Stage 5 is Within-document dedup.\",\"assertion\":\"explicit\",\"mentions\":[],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"5. **Within-document dedup.** The same\"}]},{\"claim_id\":\"c051\",\"text\":\"The same source asserting a claim repeatedly merges to one claim.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"source\",\"role\":\"g_subject\",\"kind_hint\":\"object\"},{\"surface\":\"claim\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"The same source asserting a claim repeatedly\"}]},{\"claim_id\":\"c052\",\"text\":\"Within-document dedup gives weight 1.\",\"assertion\":\"explicit\",\"mentions\":[],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"merges to one claim, weight 1 (P2\"}]},{\"claim_id\":\"c053\",\"text\":\"Corroboration is cross-source only (P2).\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"P2\",\"role\":\"other\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"weight 1 (P2 — corroboration is cross-source\"}]},{\"claim_id\":\"c054\",\"text\":\"Repetition count may ride along as metadata.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"metadata\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"Repetition count may ride along as metadata;\"}]},{\"claim_id\":\"c055\",\"text\":\"Repetition count is never weight.\",\"assertion\":\"explicit\",\"mentions\":[],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"it is never weight.\"}]},{\"claim_id\":\"c056\",\"text\":\"Stage 6 is Bundle lint.\",\"assertion\":\"explicit\",\"mentions\":[],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"6. **Bundle lint.** Deterministic\"}]},{\"claim_id\":\"c057\",\"text\":\"Bundle lint is deterministic validation before emit.\",\"assertion\":\"explicit\",\"mentions\":[],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"Deterministic validation before emit: every\"}]},{\"claim_id\":\"c058\",\"text\":\"Every claim has provenance.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"claim\",\"role\":\"g_subject\",\"kind_hint\":\"concept\"},{\"surface\":\"provenance\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"validation before emit: every claim has provenance\"}]},{\"claim_id\":\"c059\",\"text\":\"No claim references graph structure.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"graph structure\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"provenance (I3); no claim references graph\"}]},{\"claim_id\":\"c060\",\"text\":\"Standalone test spot-checks are part of bundle lint.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"standalone test spot-checks\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"structure (I2); standalone test spot-checks; kind\"}]},{\"claim_id\":\"c061\",\"text\":\"Each claim has a kind tag present.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"kind tag\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"spot-checks; kind tag present. Reject\"}]},{\"claim_id\":\"c062\",\"text\":\"Bundle lint rejects or repairs before shipping.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"Bundle lint\",\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"kind tag present. Reject or repair before\"}]},{\"claim_id\":\"c063\",\"text\":\"The bundle payload working floor includes document identity plus per-claim text, kind, explicit|inferred (+ evidence base if inferred), location in source, mentions ⧠, and within-doc repetition count.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"explicit|inferred\",\"role\":\"g_object\",\"kind_hint\":\"concept\"},{\"surface\":\"evidence base\",\"role\":\"other\",\"kind_hint\":\"concept\"},{\"surface\":\"mentions ⧠\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"Document identity + per claim: text, kind,\"}]},{\"claim_id\":\"c064\",\"text\":\"The final shape of the bundle payload belongs to the type model.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"type model\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"working floor — final shape belongs to\"}]},{\"claim_id\":\"c065\",\"text\":\"The open questions include mention shape: plain strings, or spans with offsets.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"mention shape\",\"role\":\"g_subject\",\"kind_hint\":\"concept\"},{\"surface\":\"plain strings\",\"role\":\"g_object\",\"kind_hint\":\"concept\"},{\"surface\":\"spans with offsets\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"⧠ Mention shape: plain strings, or\"}]},{\"claim_id\":\"c066\",\"text\":\"The open questions include subject-kind proposals at extraction: yes/no (stage 4).\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"subject-kind proposals\",\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"⧠ Subject-kind proposals at extraction: yes/no\"}]},{\"claim_id\":\"c067\",\"text\":\"The open questions include whether stages 1–3 are one model pass or three.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"stages 1–3\",\"role\":\"g_subject\",\"kind_hint\":\"concept\"},{\"surface\":\"model pass\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"⧠ Are stages 1–3 one model pass\"}]},{\"claim_id\":\"c068\",\"text\":\"The scaffold assumes stages 1–3 are logically distinct.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"scaffold\",\"role\":\"g_subject\",\"kind_hint\":\"concept\"},{\"surface\":\"stages 1–3\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"(Scaffold assumes logically distinct; implementation may\"}]},{\"claim_id\":\"c069\",\"text\":\"Implementation may fuse stages 1–3.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"stages 1–3\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"distinct; implementation may fuse them. Compare\"}]},{\"claim_id\":\"c070\",\"text\":\"The open questions include comparing against spelunk findings on prior extraction prompts.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"spelunk findings\",\"role\":\"g_object\",\"kind_hint\":\"concept\"},{\"surface\":\"prior extraction prompts\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"Compare against spelunk findings on prior\"}]},{\"claim_id\":\"c071\",\"text\":\"The open questions include S/V/O predicate structure in the payload.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"S/V/O predicate structure\",\"role\":\"g_subject\",\"kind_hint\":\"concept\"},{\"surface\":\"payload\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"⧠ S/V/O predicate structure in the payload:\"}]},{\"claim_id\":\"c072\",\"text\":\"S/V/O predicate structure was parked earlier.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"S/V/O predicate structure\",\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"parked earlier, decide in the type model.\"}]},{\"claim_id\":\"c073\",\"text\":\"S/V/O predicate structure should be decided in the type model.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"type model\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"parked earlier, decide in the type model.\"}]},{\"claim_id\":\"c074\",\"text\":\"Atomicity makes S/V/O predicate structure cheap.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"Atomicity\",\"role\":\"g_subject\",\"kind_hint\":\"concept\"},{\"surface\":\"S/V/O predicate structure\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"Atomicity makes it cheap; grammatical subject\"}]},{\"claim_id\":\"c075\",\"text\":\"Grammatical subject does not equal canon subject and keeps it P3-legal.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"grammatical subject\",\"role\":\"g_subject\",\"kind_hint\":\"concept\"},{\"surface\":\"canon subject\",\"role\":\"g_object\",\"kind_hint\":\"concept\"},{\"surface\":\"P3\",\"role\":\"other\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"subject ≠ canon subject keeps it P3-legal.\"}]}]}"
+          },
+          "error": "Codex app-server output failed schema validation.",
+          "prompt": "Source unit id: dc531d36-50b2-4290-aa1a-d5ef173e76f4\n\nSource unit:\n\"\"\"\n---\nid: memoria-extraction-cycle-scaffold\ntype: reference\ndescription: Superseded Memoria extraction cycle scaffold retained for open bundle schema questions.\ncreated: \"2026-07-06\"\nupdated: \"2026-07-06\"\nstate: superseded\nstatus: developing\ndepends-on:\n  - memoria-distillation-cycle\n  - memoria-meta-ontology\n---\n\n# Extraction Cycle — Scaffold\n\n_**Superseded 2026-07-04** by Phase 2 of\n[05-distillation-cycle.md](05-distillation-cycle.md) (steps renamed\nCapture / Inference / Assembly; sharding moved to Preparation; atomization\nand classification folded into the passes; dedup and lint into Assembly).\nKept for the open ⧠ items below, which transfer to the bundle schema\ndiscussion. Original scaffold text follows unchanged._\n\n**Contract.** One clean markdown document in (with stable document\nidentity from preparation), one bundle out. Stateless (I5): no memory of\nthe graph, no hints from it, no structure in the output (I2). Extraction\nis the model-heavy zone of the system — its discipline comes not from\ndeterminism but from P1's tests constraining what it may emit.\n\n## Stages\n\n1. **Explicit claim pass.** Read the document; capture every assertion the\n   text actually makes, with location provenance per claim.\n2. **Inferred claim pass.** Capture assertions that follow from the text\n   but are not stated — including the invisible middle claims of causal\n   language (\"X because Y\" ⇒ Y caused X). Every inferred claim is flagged\n   `inferred` and carries the explicit claims it derives from as its\n   evidence base (P6).\n3. **Atomization.** Apply P1's three tests to every claim: split compounds,\n   verify single truth value by negation, rewrite until standalone.\n   The standalone rewrite is where coreference gets resolved — \"it orbits\n   the sun\" becomes \"Jupiter orbits the Sun\" here, while discourse context\n   still exists. Qualifiers stay attached (P1/P5): time, units, conditions\n   are part of the claim.\n4. **Classification.** Tag each claim with one of the seven claim kinds\n   (02-meta-ontology). ⧠ Open: do mentions also get proposed subject-kind\n   tags (actor/object/concept/event) here, as *suggestions* admission may\n   overrule — or is kind assignment admission's job entirely?\n5. **Within-document dedup.** The same source asserting a claim repeatedly\n   merges to one claim, weight 1 (P2 — corroboration is cross-source only).\n   Repetition count may ride along as metadata; it is never weight.\n6. **Bundle lint.** Deterministic validation before emit: every claim has\n   provenance (I3); no claim references graph structure (I2); standalone\n   test spot-checks; kind tag present. Reject or repair before shipping.\n\n## Bundle payload (working floor — final shape belongs to the type model)\n\nDocument identity + per claim: text, kind, `explicit|inferred` (+ evidence\nbase if inferred), location in source, mentions ⧠ (exact mention shape\nTBD), within-doc repetition count.\n\n## Open questions\n\n- ⧠ Mention shape: plain strings, or spans with offsets?\n- ⧠ Subject-kind proposals at extraction: yes/no (stage 4).\n- ⧠ Are stages 1–3 one model pass or three? (Scaffold assumes logically\n  distinct; implementation may fuse them. Compare against spelunk\n  findings on prior extraction prompts.)\n- ⧠ S/V/O predicate structure in the payload: parked earlier, decide in\n  the type model. Atomicity makes it cheap; grammatical subject ≠ canon\n  subject keeps it P3-legal.\n\n\"\"\"\n\nList every explicit claim in this source unit as claim drafts.",
+          "status": "failed",
+          "system": "You are the explicit-claims step in a claim-extraction pipeline. Your one job: list every claim this source unit states outright.\n\n## Task\nRead the source unit top to bottom and output one claim draft per distinct factual assertion it makes. A paragraph usually contains several assertions. Tables, lists, and captions contain assertions too.\n\n## Rules\n- Use only what the source unit says. No outside knowledge, no inference.\n- Prefer the source's own wording. Keep qualifiers (time, quantity, units, conditions, scope) inside the claim text.\n- A draft may still be compound; splitting happens in a later step. Missing an assertion is the only failure.\n- Do not summarize, select highlights, deduplicate, resolve mentions, or add commentary.\n- Set assertion to \"explicit\" on every draft.\n\n## Output fields\n- claim_id: sequential document-local ids c001, c002, c003, ...\n- text: the claim, qualifiers included.\n- assertion: \"explicit\".\n- mentions: unresolved surface references from the claim text, each with role (g_subject | g_object | other) and kind_hint (actor | object | concept | event).\n- provenance: exactly one entry — shard_id set to this source unit's id, locator with heading_path, and quote set to the first words of the supporting passage, copied verbatim, 8 words maximum.",
+          "attempt": 1,
+          "latencyMs": 118305,
+          "startedAt": "2026-07-06T16:19:21.375Z",
+          "tokenUsage": {
+            "last": {
+              "inputTokens": 18262,
+              "totalTokens": 26369,
+              "outputTokens": 8107,
+              "cachedInputTokens": 4480,
+              "reasoningOutputTokens": 388
+            },
+            "total": {
+              "inputTokens": 18262,
+              "totalTokens": 26369,
+              "outputTokens": 8107,
+              "cachedInputTokens": 4480,
+              "reasoningOutputTokens": 388
+            },
+            "modelContextWindow": 258400
+          },
+          "completedAt": "2026-07-06T16:21:19.680Z",
+          "sourceUnitId": "dc531d36-50b2-4290-aa1a-d5ef173e76f4"
+        },
+        {
+          "raw": {
+            "codex": {
+              "status": "completed",
+              "timing": {
+                "spawnMs": 2,
+                "completedMs": 84846,
+                "jsonParseMs": 1,
+                "turnStartMs": 2,
+                "firstTokenMs": 6342,
+                "initializeMs": 48,
+                "threadStartMs": 1892,
+                "schemaValidationMs": 1
+              },
+              "turnId": "019f383b-f6b0-7bc1-8c95-e9d7c8ec77ee",
+              "threadId": "019f383b-ef4e-7491-bb4e-40668c43ba08",
+              "tokenUsage": {
+                "last": {
+                  "inputTokens": 18262,
+                  "totalTokens": 23998,
+                  "outputTokens": 5736,
+                  "cachedInputTokens": 4480,
+                  "reasoningOutputTokens": 130
+                },
+                "total": {
+                  "inputTokens": 18262,
+                  "totalTokens": 23998,
+                  "outputTokens": 5736,
+                  "cachedInputTokens": 4480,
+                  "reasoningOutputTokens": 130
+                },
+                "modelContextWindow": 258400
+              },
+              "diagnostics": {
+                "events": [
+                  {
+                    "method": "remoteControl/status/changed"
+                  },
+                  {
+                    "method": "thread/started"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "thread/status/changed"
+                  },
+                  {
+                    "method": "turn/started"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "warning"
+                  },
+                  {
+                    "method": "item/started"
+                  },
+                  {
+                    "method": "item/completed"
+                  },
+                  {
+                    "method": "item/started"
+                  },
+                  {
+                    "method": "item/completed"
+                  },
+                  {
+                    "method": "item/started"
+                  },
+                  {
+                    "method": "item/agentMessage/delta",
+                    "deltaLength": 2
+                  },
+                  {
+                    "method": "item/agentMessage/delta",
+                    "deltaLength": 6
+                  },
+                  {
+                    "method": "item/agentMessage/delta",
+                    "deltaLength": 5
+                  },
+                  {
+                    "method": "item/agentMessage/delta",
+                    "deltaLength": 3
+                  },
+                  {
+                    "method": "item/agentMessage/delta",
+                    "deltaLength": 8
+                  },
+                  {
+                    "method": "item/agentMessage/delta",
+                    "deltaLength": 6
+                  },
+                  {
+                    "method": "item/agentMessage/delta",
+                    "deltaLength": 2
+                  },
+                  {
+                    "method": "item/agentMessage/delta",
+                    "deltaLength": 5
+                  }
+                ],
+                "stderr": [
+                  "{\"timestamp\":\"2026-07-06T16:21:19.881627Z\",\"level\":\"WARN\",\"fields\":{\"message\":\"ignoring interface.defaultPrompt: maximum of 3 prompts is supported\",\"path\":\"/Users/davidhall/.codex/plugins/cache/openai-primary-runtime/template-creator/26.630.12135/.codex-plugin/plugin.json\"},\"target\":\"codex_core_plugins::manifest\"}",
+                  "{\"timestamp\":\"2026-07-06T16:21:19.882232Z\",\"level\":\"WARN\",\"fields\":{\"message\":\"ignoring interface.defaultPrompt: maximum of 3 prompts is supported\",\"path\":\"/Users/davidhall/.codex/plugins/cache/openai-primary-runtime/template-creator/26.630.12135/.codex-plugin/plugin.json\"},\"target\":\"codex_core_plugins::manifest\"}",
+                  "{\"timestamp\":\"2026-07-06T16:21:20.144172Z\",\"level\":\"WARN\",\"fields\":{\"message\":\"ignoring interface.defaultPrompt[0]: prompt must be at most 128 characters\",\"path\":\"/Users/davidhall/.codex/.tmp/plugins/plugins/ngs-analysis/.codex-plugin/plugin.json\"},\"target\":\"codex_core_plugins::manifest\"}",
+                  "{\"timestamp\":\"2026-07-06T16:21:20.144997Z\",\"level\":\"WARN\",\"fields\":{\"message\":\"ignoring interface.defaultPrompt[0]: prompt must be at most 128 characters\",\"path\":\"/Users/davidhall/.codex/.tmp/plugins/plugins/ngs-analysis/.codex-plugin/plugin.json\"},\"target\":\"codex_core_plugins::manifest\"}",
+                  "{\"timestamp\":\"2026-07-06T16:21:21.536519Z\",\"level\":\"WARN\",\"fields\":{\"message\":\"state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\"},\"target\":\"codex_rollout::list\"}"
+                ],
+                "eventCount": 5627,
+                "stderrCount": 26
+              },
+              "promptMetrics": {
+                "sections": [
+                  {
+                    "chars": 128,
+                    "label": "bridge_instructions",
+                    "estimatedTokens": 32
+                  },
+                  {
+                    "chars": 1288,
+                    "label": "system",
+                    "estimatedTokens": 322
+                  },
+                  {
+                    "chars": 3532,
+                    "label": "extraction_prompt",
+                    "estimatedTokens": 883
+                  },
+                  {
+                    "chars": 117,
+                    "label": "output_contract",
+                    "estimatedTokens": 30
+                  }
+                ],
+                "totalChars": 5065,
+                "totalEstimatedTokens": 1267
+              },
+              "validationError": {
+                "formErrors": [],
+                "fieldErrors": {
+                  "claims": [
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object",
+                    "Invalid input: expected string, received undefined",
+                    "Invalid input: expected array, received object"
+                  ]
+                }
+              },
+              "tokenUsageEvents": [
+                {
+                  "turnId": "019f383b-f6b0-7bc1-8c95-e9d7c8ec77ee",
+                  "threadId": "019f383b-ef4e-7491-bb4e-40668c43ba08",
+                  "tokenUsage": {
+                    "last": {
+                      "inputTokens": 18262,
+                      "totalTokens": 23998,
+                      "outputTokens": 5736,
+                      "cachedInputTokens": 4480,
+                      "reasoningOutputTokens": 130
+                    },
+                    "total": {
+                      "inputTokens": 18262,
+                      "totalTokens": 23998,
+                      "outputTokens": 5736,
+                      "cachedInputTokens": 4480,
+                      "reasoningOutputTokens": 130
+                    },
+                    "modelContextWindow": 258400
+                  }
+                }
+              ]
+            },
+            "finalText": "{\"schema_name\":\"explicit_claim_drafts\",\"claims\":[{\"claim_id\":\"c001\",\"text\":\"memoria-extraction-cycle-scaffold is a reference type.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"memoria-extraction-cycle-scaffold\",\"role\":\"g_subject\",\"kind_hint\":\"object\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"frontmatter\"]},\"quote\":\"id: memoria-extraction-cycle-scaffold\"}},{\"claim_id\":\"c002\",\"text\":\"memoria-extraction-cycle-scaffold is superseded and retained for open bundle schema questions.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"memoria-extraction-cycle-scaffold\",\"role\":\"g_subject\",\"kind_hint\":\"object\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"frontmatter\"]},\"quote\":\"description: Superseded Memoria extraction cycle scaffold\"}},{\"claim_id\":\"c003\",\"text\":\"memoria-extraction-cycle-scaffold was created on 2026-07-06.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"memoria-extraction-cycle-scaffold\",\"role\":\"g_subject\",\"kind_hint\":\"object\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"frontmatter\"]},\"quote\":\"created: \\\"2026-07-06\\\"\"}},{\"claim_id\":\"c004\",\"text\":\"memoria-extraction-cycle-scaffold was updated on 2026-07-06.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"memoria-extraction-cycle-scaffold\",\"role\":\"g_subject\",\"kind_hint\":\"object\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"frontmatter\"]},\"quote\":\"updated: \\\"2026-07-06\\\"\"}},{\"claim_id\":\"c005\",\"text\":\"memoria-extraction-cycle-scaffold has state superseded.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"memoria-extraction-cycle-scaffold\",\"role\":\"g_subject\",\"kind_hint\":\"object\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"frontmatter\"]},\"quote\":\"state: superseded\"}},{\"claim_id\":\"c006\",\"text\":\"memoria-extraction-cycle-scaffold has status developing.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"memoria-extraction-cycle-scaffold\",\"role\":\"g_subject\",\"kind_hint\":\"object\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"frontmatter\"]},\"quote\":\"status: developing\"}},{\"claim_id\":\"c007\",\"text\":\"memoria-extraction-cycle-scaffold depends on memoria-distillation-cycle and memoria-meta-ontology.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"memoria-extraction-cycle-scaffold\",\"role\":\"g_subject\",\"kind_hint\":\"object\"},{\"surface\":\"memoria-distillation-cycle\",\"role\":\"g_object\",\"kind_hint\":\"object\"},{\"surface\":\"memoria-meta-ontology\",\"role\":\"g_object\",\"kind_hint\":\"object\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"frontmatter\"]},\"quote\":\"depends-on:\"}},{\"claim_id\":\"c008\",\"text\":\"Extraction Cycle — Scaffold is superseded 2026-07-04 by Phase 2 of 05-distillation-cycle.md.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"Extraction Cycle — Scaffold\",\"role\":\"g_subject\",\"kind_hint\":\"object\"},{\"surface\":\"Phase 2\",\"role\":\"g_object\",\"kind_hint\":\"event\"},{\"surface\":\"05-distillation-cycle.md\",\"role\":\"g_object\",\"kind_hint\":\"object\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"_Superseded 2026-07-04_ by Phase 2 of\"}},{\"claim_id\":\"c009\",\"text\":\"Phase 2 of 05-distillation-cycle.md renamed steps to Capture / Inference / Assembly.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"Phase 2\",\"role\":\"g_subject\",\"kind_hint\":\"event\"},{\"surface\":\"05-distillation-cycle.md\",\"role\":\"g_object\",\"kind_hint\":\"object\"},{\"surface\":\"Capture / Inference / Assembly\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"steps renamed Capture / Inference / Assembly;\"}},{\"claim_id\":\"c010\",\"text\":\"Phase 2 of 05-distillation-cycle.md moved sharding to Preparation.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"Phase 2\",\"role\":\"g_subject\",\"kind_hint\":\"event\"},{\"surface\":\"05-distillation-cycle.md\",\"role\":\"g_object\",\"kind_hint\":\"object\"},{\"surface\":\"Preparation\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"sharding moved to Preparation;\"}},{\"claim_id\":\"c011\",\"text\":\"Phase 2 of 05-distillation-cycle.md folded atomization and classification into the passes.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"Phase 2\",\"role\":\"g_subject\",\"kind_hint\":\"event\"},{\"surface\":\"05-distillation-cycle.md\",\"role\":\"g_object\",\"kind_hint\":\"object\"},{\"surface\":\"atomization and classification\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"atomization and classification folded into the passes;\"}},{\"claim_id\":\"c012\",\"text\":\"Phase 2 of 05-distillation-cycle.md folded dedup and lint into Assembly.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"Phase 2\",\"role\":\"g_subject\",\"kind_hint\":\"event\"},{\"surface\":\"05-distillation-cycle.md\",\"role\":\"g_object\",\"kind_hint\":\"object\"},{\"surface\":\"Assembly\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"dedup and lint into Assembly).\"}},{\"claim_id\":\"c013\",\"text\":\"Extraction is the model-heavy zone of the system.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"Extraction\",\"role\":\"g_subject\",\"kind_hint\":\"concept\"},{\"surface\":\"the system\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"Extraction is the model-heavy zone\"}},{\"claim_id\":\"c014\",\"text\":\"Extraction's discipline comes not from determinism but from P1's tests constraining what it may emit.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"Extraction\",\"role\":\"g_subject\",\"kind_hint\":\"concept\"},{\"surface\":\"P1\",\"role\":\"g_object\",\"kind_hint\":\"concept\"},{\"surface\":\"it\",\"role\":\"other\",\"kind_hint\":\"concept\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"its discipline comes not from determinism\"}},{\"claim_id\":\"c015\",\"text\":\"Stage 1 is the explicit claim pass.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"Stage 1\",\"role\":\"g_subject\",\"kind_hint\":\"event\"},{\"surface\":\"explicit claim pass\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"1. **Explicit claim pass.** Read\"}},{\"claim_id\":\"c016\",\"text\":\"The explicit claim pass reads the document and captures every assertion the text actually makes, with location provenance per claim.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"the document\",\"role\":\"g_object\",\"kind_hint\":\"object\"},{\"surface\":\"the text\",\"role\":\"g_object\",\"kind_hint\":\"concept\"},{\"surface\":\"claim\",\"role\":\"other\",\"kind_hint\":\"concept\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"Read the document; capture every assertion\"}},{\"claim_id\":\"c017\",\"text\":\"Stage 2 is the inferred claim pass.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"Stage 2\",\"role\":\"g_subject\",\"kind_hint\":\"event\"},{\"surface\":\"inferred claim pass\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"2. **Inferred claim pass.** Capture\"}},{\"claim_id\":\"c018\",\"text\":\"The inferred claim pass captures assertions that follow from the text but are not stated, including the invisible middle claims of causal language.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"The inferred claim pass\",\"role\":\"g_subject\",\"kind_hint\":\"concept\"},{\"surface\":\"the text\",\"role\":\"g_object\",\"kind_hint\":\"concept\"},{\"surface\":\"causal language\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"Capture assertions that follow from\"}},{\"claim_id\":\"c019\",\"text\":\"Every inferred claim is flagged inferred and carries the explicit claims it derives from as its evidence base.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"Every inferred claim\",\"role\":\"g_subject\",\"kind_hint\":\"concept\"},{\"surface\":\"explicit claims\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"Every inferred claim is flagged `inferred`\"}},{\"claim_id\":\"c020\",\"text\":\"Stage 3 is atomization.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"Stage 3\",\"role\":\"g_subject\",\"kind_hint\":\"event\"},{\"surface\":\"Atomization\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"3. **Atomization.** Apply P1's\"}},{\"claim_id\":\"c021\",\"text\":\"Atomization applies P1's three tests to every claim.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"Atomization\",\"role\":\"g_subject\",\"kind_hint\":\"concept\"},{\"surface\":\"P1's three tests\",\"role\":\"g_object\",\"kind_hint\":\"concept\"},{\"surface\":\"every claim\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"Apply P1's three tests to every\"}},{\"claim_id\":\"c022\",\"text\":\"Atomization splits compounds, verifies single truth value by negation, and rewrites until standalone.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"Atomization\",\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"split compounds, verify single truth value\"}},{\"claim_id\":\"c023\",\"text\":\"The standalone rewrite is where coreference gets resolved.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"The standalone rewrite\",\"role\":\"g_subject\",\"kind_hint\":\"concept\"},{\"surface\":\"coreference\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"The standalone rewrite is where\"}},{\"claim_id\":\"c024\",\"text\":\"Qualifiers stay attached, and time, units, and conditions are part of the claim.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"Qualifiers\",\"role\":\"g_subject\",\"kind_hint\":\"concept\"},{\"surface\":\"the claim\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"Qualifiers stay attached (P1/P5): time, units\"}},{\"claim_id\":\"c025\",\"text\":\"Stage 4 is classification.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"Stage 4\",\"role\":\"g_subject\",\"kind_hint\":\"event\"},{\"surface\":\"Classification\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"4. **Classification.** Tag each\"}},{\"claim_id\":\"c026\",\"text\":\"Classification tags each claim with one of the seven claim kinds from 02-meta-ontology.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"Classification\",\"role\":\"g_subject\",\"kind_hint\":\"concept\"},{\"surface\":\"each claim\",\"role\":\"g_object\",\"kind_hint\":\"concept\"},{\"surface\":\"02-meta-ontology\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"Tag each claim with one of\"}},{\"claim_id\":\"c027\",\"text\":\"The document asks whether mentions also get proposed subject-kind tags at extraction, as suggestions that admission may overrule, or whether kind assignment is admission's job entirely.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"mentions\",\"role\":\"g_subject\",\"kind_hint\":\"concept\"},{\"surface\":\"subject-kind tags\",\"role\":\"g_object\",\"kind_hint\":\"concept\"},{\"surface\":\"admission\",\"role\":\"other\",\"kind_hint\":\"concept\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"⧠ Open: do mentions also get\"}},{\"claim_id\":\"c028\",\"text\":\"Stage 5 is within-document dedup.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"Stage 5\",\"role\":\"g_subject\",\"kind_hint\":\"event\"},{\"surface\":\"within-document dedup\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"5. **Within-document dedup.** The\"}},{\"claim_id\":\"c029\",\"text\":\"The same source asserting a claim repeatedly merges to one claim with weight 1.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"The same source\",\"role\":\"g_subject\",\"kind_hint\":\"actor\"},{\"surface\":\"a claim\",\"role\":\"g_object\",\"kind_hint\":\"concept\"},{\"surface\":\"one claim\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"The same source asserting a\"}},{\"claim_id\":\"c030\",\"text\":\"Corroboration is cross-source only.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"Corroboration\",\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"corroboration is cross-source only)\"}},{\"claim_id\":\"c031\",\"text\":\"Repetition count may ride along as metadata, and repetition count is never weight.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"Repetition count\",\"role\":\"g_subject\",\"kind_hint\":\"concept\"},{\"surface\":\"metadata\",\"role\":\"g_object\",\"kind_hint\":\"concept\"},{\"surface\":\"weight\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"Repetition count may ride along\"}},{\"claim_id\":\"c032\",\"text\":\"Stage 6 is bundle lint.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"Stage 6\",\"role\":\"g_subject\",\"kind_hint\":\"event\"},{\"surface\":\"bundle lint\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"6. **Bundle lint.** Deterministic\"}},{\"claim_id\":\"c033\",\"text\":\"Bundle lint is deterministic validation before emit.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"Bundle lint\",\"role\":\"g_subject\",\"kind_hint\":\"concept\"},{\"surface\":\"emit\",\"role\":\"g_object\",\"kind_hint\":\"event\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"Deterministic validation before emit:\"}},{\"claim_id\":\"c034\",\"text\":\"Every claim has provenance.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"Every claim\",\"role\":\"g_subject\",\"kind_hint\":\"concept\"},{\"surface\":\"provenance\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"every claim has provenance (I3);\"}},{\"claim_id\":\"c035\",\"text\":\"No claim references graph structure.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"No claim\",\"role\":\"g_subject\",\"kind_hint\":\"concept\"},{\"surface\":\"graph structure\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"no claim references graph structure\"}},{\"claim_id\":\"c036\",\"text\":\"The standalone test is spot-checked.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"The standalone test\",\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"standalone test spot-checks; kind tag\"}},{\"claim_id\":\"c037\",\"text\":\"A kind tag is present.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"A kind tag\",\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"kind tag present. Reject\"}},{\"claim_id\":\"c038\",\"text\":\"The bundle payload is a working floor, and the final shape belongs to the type model.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"The bundle payload\",\"role\":\"g_subject\",\"kind_hint\":\"object\"},{\"surface\":\"the type model\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Bundle payload (working floor — final shape belongs to the type model)\"]},\"quote\":\"Bundle payload (working floor — final\"}},{\"claim_id\":\"c039\",\"text\":\"The bundle payload includes document identity and, per claim, text, kind, explicit|inferred, evidence base if inferred, location in source, mentions, and within-doc repetition count.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"The bundle payload\",\"role\":\"g_subject\",\"kind_hint\":\"object\"},{\"surface\":\"document identity\",\"role\":\"g_object\",\"kind_hint\":\"concept\"},{\"surface\":\"claim\",\"role\":\"other\",\"kind_hint\":\"concept\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Bundle payload (working floor — final shape belongs to the type model)\"]},\"quote\":\"Document identity + per claim: text\"}},{\"claim_id\":\"c040\",\"text\":\"There is an open question about mention shape: plain strings, or spans with offsets.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"mention shape\",\"role\":\"g_subject\",\"kind_hint\":\"concept\"},{\"surface\":\"plain strings\",\"role\":\"g_object\",\"kind_hint\":\"concept\"},{\"surface\":\"spans with offsets\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Open questions\"]},\"quote\":\"⧠ Mention shape: plain strings,\"}},{\"claim_id\":\"c041\",\"text\":\"There is an open question about subject-kind proposals at extraction: yes or no.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"subject-kind proposals at extraction\",\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Open questions\"]},\"quote\":\"⧠ Subject-kind proposals at extraction\"}},{\"claim_id\":\"c042\",\"text\":\"There is an open question about whether stages 1–3 are one model pass or three.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"stages 1–3\",\"role\":\"g_subject\",\"kind_hint\":\"concept\"},{\"surface\":\"one model pass or three\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Open questions\"]},\"quote\":\"⧠ Are stages 1–3 one\"}},{\"claim_id\":\"c043\",\"text\":\"The scaffold assumes stages 1–3 are logically distinct, but implementation may fuse them.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"The scaffold\",\"role\":\"g_subject\",\"kind_hint\":\"object\"},{\"surface\":\"stages 1–3\",\"role\":\"g_object\",\"kind_hint\":\"concept\"},{\"surface\":\"implementation\",\"role\":\"other\",\"kind_hint\":\"concept\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Open questions\"]},\"quote\":\"Scaffold assumes logically distinct; implementation may\"}},{\"claim_id\":\"c044\",\"text\":\"There is an open question about S/V/O predicate structure in the payload.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"S/V/O predicate structure\",\"role\":\"g_subject\",\"kind_hint\":\"concept\"},{\"surface\":\"the payload\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Open questions\"]},\"quote\":\"⧠ S/V/O predicate structure in\"}},{\"claim_id\":\"c045\",\"text\":\"S/V/O predicate structure is parked earlier and will be decided in the type model.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"S/V/O predicate structure\",\"role\":\"g_subject\",\"kind_hint\":\"concept\"},{\"surface\":\"the type model\",\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Open questions\"]},\"quote\":\"parked earlier, decide in the type\"}},{\"claim_id\":\"c046\",\"text\":\"Atomicity makes S/V/O predicate structure cheap, and grammatical subject does not equal canon subject keeps it P3-legal.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"Atomicity\",\"role\":\"g_subject\",\"kind_hint\":\"concept\"},{\"surface\":\"S/V/O predicate structure\",\"role\":\"g_object\",\"kind_hint\":\"concept\"},{\"surface\":\"grammatical subject\",\"role\":\"other\",\"kind_hint\":\"concept\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Open questions\"]},\"quote\":\"Atomicity makes it cheap; grammatical subject\"}},{\"claim_id\":\"c047\",\"text\":\"The original scaffold text follows unchanged.\",\"assertion\":\"explicit\",\"mentions\":[{\"surface\":\"The original scaffold text\",\"role\":\"g_subject\",\"kind_hint\":\"object\"}],\"provenance\":{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"Original scaffold text follows unchanged.\"}}]}"
+          },
+          "error": "Codex app-server output failed schema validation.",
+          "prompt": "Source unit id: dc531d36-50b2-4290-aa1a-d5ef173e76f4\n\nSource unit:\n\"\"\"\n---\nid: memoria-extraction-cycle-scaffold\ntype: reference\ndescription: Superseded Memoria extraction cycle scaffold retained for open bundle schema questions.\ncreated: \"2026-07-06\"\nupdated: \"2026-07-06\"\nstate: superseded\nstatus: developing\ndepends-on:\n  - memoria-distillation-cycle\n  - memoria-meta-ontology\n---\n\n# Extraction Cycle — Scaffold\n\n_**Superseded 2026-07-04** by Phase 2 of\n[05-distillation-cycle.md](05-distillation-cycle.md) (steps renamed\nCapture / Inference / Assembly; sharding moved to Preparation; atomization\nand classification folded into the passes; dedup and lint into Assembly).\nKept for the open ⧠ items below, which transfer to the bundle schema\ndiscussion. Original scaffold text follows unchanged._\n\n**Contract.** One clean markdown document in (with stable document\nidentity from preparation), one bundle out. Stateless (I5): no memory of\nthe graph, no hints from it, no structure in the output (I2). Extraction\nis the model-heavy zone of the system — its discipline comes not from\ndeterminism but from P1's tests constraining what it may emit.\n\n## Stages\n\n1. **Explicit claim pass.** Read the document; capture every assertion the\n   text actually makes, with location provenance per claim.\n2. **Inferred claim pass.** Capture assertions that follow from the text\n   but are not stated — including the invisible middle claims of causal\n   language (\"X because Y\" ⇒ Y caused X). Every inferred claim is flagged\n   `inferred` and carries the explicit claims it derives from as its\n   evidence base (P6).\n3. **Atomization.** Apply P1's three tests to every claim: split compounds,\n   verify single truth value by negation, rewrite until standalone.\n   The standalone rewrite is where coreference gets resolved — \"it orbits\n   the sun\" becomes \"Jupiter orbits the Sun\" here, while discourse context\n   still exists. Qualifiers stay attached (P1/P5): time, units, conditions\n   are part of the claim.\n4. **Classification.** Tag each claim with one of the seven claim kinds\n   (02-meta-ontology). ⧠ Open: do mentions also get proposed subject-kind\n   tags (actor/object/concept/event) here, as *suggestions* admission may\n   overrule — or is kind assignment admission's job entirely?\n5. **Within-document dedup.** The same source asserting a claim repeatedly\n   merges to one claim, weight 1 (P2 — corroboration is cross-source only).\n   Repetition count may ride along as metadata; it is never weight.\n6. **Bundle lint.** Deterministic validation before emit: every claim has\n   provenance (I3); no claim references graph structure (I2); standalone\n   test spot-checks; kind tag present. Reject or repair before shipping.\n\n## Bundle payload (working floor — final shape belongs to the type model)\n\nDocument identity + per claim: text, kind, `explicit|inferred` (+ evidence\nbase if inferred), location in source, mentions ⧠ (exact mention shape\nTBD), within-doc repetition count.\n\n## Open questions\n\n- ⧠ Mention shape: plain strings, or spans with offsets?\n- ⧠ Subject-kind proposals at extraction: yes/no (stage 4).\n- ⧠ Are stages 1–3 one model pass or three? (Scaffold assumes logically\n  distinct; implementation may fuse them. Compare against spelunk\n  findings on prior extraction prompts.)\n- ⧠ S/V/O predicate structure in the payload: parked earlier, decide in\n  the type model. Atomicity makes it cheap; grammatical subject ≠ canon\n  subject keeps it P3-legal.\n\n\"\"\"\n\nList every explicit claim in this source unit as claim drafts.",
+          "status": "failed",
+          "system": "You are the explicit-claims step in a claim-extraction pipeline. Your one job: list every claim this source unit states outright.\n\n## Task\nRead the source unit top to bottom and output one claim draft per distinct factual assertion it makes. A paragraph usually contains several assertions. Tables, lists, and captions contain assertions too.\n\n## Rules\n- Use only what the source unit says. No outside knowledge, no inference.\n- Prefer the source's own wording. Keep qualifiers (time, quantity, units, conditions, scope) inside the claim text.\n- A draft may still be compound; splitting happens in a later step. Missing an assertion is the only failure.\n- Do not summarize, select highlights, deduplicate, resolve mentions, or add commentary.\n- Set assertion to \"explicit\" on every draft.\n\n## Output fields\n- claim_id: sequential document-local ids c001, c002, c003, ...\n- text: the claim, qualifiers included.\n- assertion: \"explicit\".\n- mentions: unresolved surface references from the claim text, each with role (g_subject | g_object | other) and kind_hint (actor | object | concept | event).\n- provenance: exactly one entry — shard_id set to this source unit's id, locator with heading_path, and quote set to the first words of the supporting passage, copied verbatim, 8 words maximum.",
+          "attempt": 2,
+          "latencyMs": 84936,
+          "startedAt": "2026-07-06T16:21:19.680Z",
+          "tokenUsage": {
+            "last": {
+              "inputTokens": 18262,
+              "totalTokens": 23998,
+              "outputTokens": 5736,
+              "cachedInputTokens": 4480,
+              "reasoningOutputTokens": 130
+            },
+            "total": {
+              "inputTokens": 18262,
+              "totalTokens": 23998,
+              "outputTokens": 5736,
+              "cachedInputTokens": 4480,
+              "reasoningOutputTokens": 130
+            },
+            "modelContextWindow": 258400
+          },
+          "completedAt": "2026-07-06T16:22:44.616Z",
+          "sourceUnitId": "dc531d36-50b2-4290-aa1a-d5ef173e76f4"
+        },
+        {
+          "raw": {
+            "codex": {
+              "status": "completed",
+              "timing": {
+                "spawnMs": 2,
+                "completedMs": 97425,
+                "jsonParseMs": 1,
+                "turnStartMs": 0,
+                "firstTokenMs": 6332,
+                "initializeMs": 48,
+                "threadStartMs": 1627,
+                "schemaValidationMs": 0
+              },
+              "turnId": "019f383d-4169-7852-8bf8-42324d04580f",
+              "threadId": "019f383d-3b11-71e1-b412-d1d0e431ef83",
+              "tokenUsage": {
+                "last": {
+                  "inputTokens": 18262,
+                  "totalTokens": 24918,
+                  "outputTokens": 6656,
+                  "cachedInputTokens": 4480,
+                  "reasoningOutputTokens": 158
+                },
+                "total": {
+                  "inputTokens": 18262,
+                  "totalTokens": 24918,
+                  "outputTokens": 6656,
+                  "cachedInputTokens": 4480,
+                  "reasoningOutputTokens": 158
+                },
+                "modelContextWindow": 258400
+              },
+              "diagnostics": {
+                "events": [
+                  {
+                    "method": "remoteControl/status/changed"
+                  },
+                  {
+                    "method": "thread/started"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "thread/status/changed"
+                  },
+                  {
+                    "method": "turn/started"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "mcpServer/startupStatus/updated"
+                  },
+                  {
+                    "method": "warning"
+                  },
+                  {
+                    "method": "item/started"
+                  },
+                  {
+                    "method": "item/completed"
+                  },
+                  {
+                    "method": "item/started"
+                  },
+                  {
+                    "method": "item/completed"
+                  },
+                  {
+                    "method": "item/started"
+                  },
+                  {
+                    "method": "item/agentMessage/delta",
+                    "deltaLength": 2
+                  },
+                  {
+                    "method": "item/agentMessage/delta",
+                    "deltaLength": 5
+                  },
+                  {
+                    "method": "item/agentMessage/delta",
+                    "deltaLength": 2
+                  },
+                  {
+                    "method": "item/agentMessage/delta",
+                    "deltaLength": 5
+                  },
+                  {
+                    "method": "item/agentMessage/delta",
+                    "deltaLength": 3
+                  },
+                  {
+                    "method": "item/agentMessage/delta",
+                    "deltaLength": 2
+                  },
+                  {
+                    "method": "item/agentMessage/delta",
+                    "deltaLength": 5
+                  },
+                  {
+                    "method": "item/agentMessage/delta",
+                    "deltaLength": 3
+                  }
+                ],
+                "stderr": [
+                  "{\"timestamp\":\"2026-07-06T16:22:44.795464Z\",\"level\":\"WARN\",\"fields\":{\"message\":\"ignoring interface.defaultPrompt: maximum of 3 prompts is supported\",\"path\":\"/Users/davidhall/.codex/plugins/cache/openai-primary-runtime/template-creator/26.630.12135/.codex-plugin/plugin.json\"},\"target\":\"codex_core_plugins::manifest\"}",
+                  "{\"timestamp\":\"2026-07-06T16:22:44.796593Z\",\"level\":\"WARN\",\"fields\":{\"message\":\"ignoring interface.defaultPrompt: maximum of 3 prompts is supported\",\"path\":\"/Users/davidhall/.codex/plugins/cache/openai-primary-runtime/template-creator/26.630.12135/.codex-plugin/plugin.json\"},\"target\":\"codex_core_plugins::manifest\"}",
+                  "{\"timestamp\":\"2026-07-06T16:22:45.293223Z\",\"level\":\"WARN\",\"fields\":{\"message\":\"ignoring interface.defaultPrompt[0]: prompt must be at most 128 characters\",\"path\":\"/Users/davidhall/.codex/.tmp/plugins/plugins/ngs-analysis/.codex-plugin/plugin.json\"},\"target\":\"codex_core_plugins::manifest\"}",
+                  "{\"timestamp\":\"2026-07-06T16:22:45.294138Z\",\"level\":\"WARN\",\"fields\":{\"message\":\"ignoring interface.defaultPrompt[0]: prompt must be at most 128 characters\",\"path\":\"/Users/davidhall/.codex/.tmp/plugins/plugins/ngs-analysis/.codex-plugin/plugin.json\"},\"target\":\"codex_core_plugins::manifest\"}",
+                  "{\"timestamp\":\"2026-07-06T16:22:46.207334Z\",\"level\":\"WARN\",\"fields\":{\"message\":\"state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back\"},\"target\":\"codex_rollout::list\"}"
+                ],
+                "eventCount": 6519,
+                "stderrCount": 28
+              },
+              "promptMetrics": {
+                "sections": [
+                  {
+                    "chars": 128,
+                    "label": "bridge_instructions",
+                    "estimatedTokens": 32
+                  },
+                  {
+                    "chars": 1288,
+                    "label": "system",
+                    "estimatedTokens": 322
+                  },
+                  {
+                    "chars": 3532,
+                    "label": "extraction_prompt",
+                    "estimatedTokens": 883
+                  },
+                  {
+                    "chars": 117,
+                    "label": "output_contract",
+                    "estimatedTokens": 30
+                  }
+                ],
+                "totalChars": 5065,
+                "totalEstimatedTokens": 1267
+              },
+              "tokenUsageEvents": [
+                {
+                  "turnId": "019f383d-4169-7852-8bf8-42324d04580f",
+                  "threadId": "019f383d-3b11-71e1-b412-d1d0e431ef83",
+                  "tokenUsage": {
+                    "last": {
+                      "inputTokens": 18262,
+                      "totalTokens": 24918,
+                      "outputTokens": 6656,
+                      "cachedInputTokens": 4480,
+                      "reasoningOutputTokens": 158
+                    },
+                    "total": {
+                      "inputTokens": 18262,
+                      "totalTokens": 24918,
+                      "outputTokens": 6656,
+                      "cachedInputTokens": 4480,
+                      "reasoningOutputTokens": 158
+                    },
+                    "modelContextWindow": 258400
+                  }
+                }
+              ]
+            },
+            "finalText": "{\"claim_drafts\":[{\"claim_id\":\"c001\",\"text\":\"The source unit id is memoria-extraction-cycle-scaffold.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"object\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"\"]},\"quote\":\"---\"}]},{\"claim_id\":\"c002\",\"text\":\"The source unit type is reference.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"\"]},\"quote\":\"---\"}]},{\"claim_id\":\"c003\",\"text\":\"The source unit description is \\\"Superseded Memoria extraction cycle scaffold retained for open bundle schema questions.\\\"\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"\"]},\"quote\":\"description: Superseded Memoria extraction\"}]},{\"claim_id\":\"c004\",\"text\":\"The source unit was created on \\\"2026-07-06\\\".\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_object\",\"kind_hint\":\"event\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"\"]},\"quote\":\"created: \\\"2026-07-06\\\"\"}]},{\"claim_id\":\"c005\",\"text\":\"The source unit was updated on \\\"2026-07-06\\\".\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_object\",\"kind_hint\":\"event\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"\"]},\"quote\":\"updated: \\\"2026-07-06\\\"\"}]},{\"claim_id\":\"c006\",\"text\":\"The source unit state is superseded.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"\"]},\"quote\":\"state: superseded\"}]},{\"claim_id\":\"c007\",\"text\":\"The source unit status is developing.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"\"]},\"quote\":\"status: developing\"}]},{\"claim_id\":\"c008\",\"text\":\"The source unit depends on memoria-distillation-cycle.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_object\",\"kind_hint\":\"object\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"\"]},\"quote\":\"depends-on:\"}]},{\"claim_id\":\"c009\",\"text\":\"The source unit depends on memoria-meta-ontology.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_object\",\"kind_hint\":\"object\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"\"]},\"quote\":\"depends-on:\"}]},{\"claim_id\":\"c010\",\"text\":\"The document is titled \\\"Extraction Cycle — Scaffold\\\".\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"# Extraction Cycle — Scaffold\"}]},{\"claim_id\":\"c011\",\"text\":\"The scaffold was superseded on 2026-07-04 by Phase 2 of 05-distillation-cycle.md.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"},{\"role\":\"g_object\",\"kind_hint\":\"event\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"Superseded 2026-07-04\"}]},{\"claim_id\":\"c012\",\"text\":\"Phase 2 of 05-distillation-cycle.md renamed the steps to Capture / Inference / Assembly.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"event\"},{\"role\":\"g_object\",\"kind_hint\":\"object\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"steps renamed Capture / Inference / Assembly\"}]},{\"claim_id\":\"c013\",\"text\":\"Phase 2 of 05-distillation-cycle.md moved sharding to Preparation.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"event\"},{\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"sharding moved to Preparation\"}]},{\"claim_id\":\"c014\",\"text\":\"Phase 2 of 05-distillation-cycle.md folded atomization and classification into the passes.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"event\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"atomization and classification folded\"}]},{\"claim_id\":\"c015\",\"text\":\"Phase 2 of 05-distillation-cycle.md folded dedup and lint into Assembly.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"event\"},{\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"dedup and lint into Assembly\"}]},{\"claim_id\":\"c016\",\"text\":\"The scaffold is kept for the open ⧠ items below.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"Kept for the open ⧠ items\"}]},{\"claim_id\":\"c017\",\"text\":\"The open ⧠ items transfer to the bundle schema discussion.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"which transfer to the bundle schema\"}]},{\"claim_id\":\"c018\",\"text\":\"The original scaffold text follows unchanged.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"Original scaffold text follows unchanged.\"}]},{\"claim_id\":\"c019\",\"text\":\"The contract is one clean markdown document in, with stable document identity from preparation, and one bundle out.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"Contract. One clean markdown document\"}]},{\"claim_id\":\"c020\",\"text\":\"The system is stateless (I5).\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"Stateless (I5): no memory\"}]},{\"claim_id\":\"c021\",\"text\":\"The system has no memory of the graph.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"no memory of the graph\"}]},{\"claim_id\":\"c022\",\"text\":\"The system has no hints from the graph.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"no hints from it\"}]},{\"claim_id\":\"c023\",\"text\":\"The system has no structure in the output (I2).\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"no structure in the output (I2)\"}]},{\"claim_id\":\"c024\",\"text\":\"Extraction is the model-heavy zone of the system.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"},{\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"Extraction is the model-heavy zone\"}]},{\"claim_id\":\"c025\",\"text\":\"Extraction discipline comes not from determinism but from P1's tests constraining what it may emit.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Extraction Cycle — Scaffold\"]},\"quote\":\"discipline comes not from determinism\"}]},{\"claim_id\":\"c026\",\"text\":\"The explicit claim pass reads the document and captures every assertion the text actually makes, with location provenance per claim.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"Explicit claim pass. Read the\"}]},{\"claim_id\":\"c027\",\"text\":\"The inferred claim pass captures assertions that follow from the text but are not stated.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"Inferred claim pass. Capture assertions\"}]},{\"claim_id\":\"c028\",\"text\":\"The inferred claim pass includes the invisible middle claims of causal language.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"including the invisible middle claims\"}]},{\"claim_id\":\"c029\",\"text\":\"Every inferred claim is flagged inferred.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"Every inferred claim is flagged\"}]},{\"claim_id\":\"c030\",\"text\":\"Every inferred claim carries the explicit claims it derives from as its evidence base (P6).\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"},{\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"carries the explicit claims it\"}]},{\"claim_id\":\"c031\",\"text\":\"Atomization applies P1's three tests to every claim.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"Atomization. Apply P1's three tests\"}]},{\"claim_id\":\"c032\",\"text\":\"Atomization splits compounds.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"split compounds, verify single truth\"}]},{\"claim_id\":\"c033\",\"text\":\"Atomization verifies single truth value by negation.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"verify single truth value by\"}]},{\"claim_id\":\"c034\",\"text\":\"Atomization rewrites until standalone.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"rewrite until standalone\"}]},{\"claim_id\":\"c035\",\"text\":\"The standalone rewrite is where coreference gets resolved.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"The standalone rewrite is where\"}]},{\"claim_id\":\"c036\",\"text\":\"\\\"it orbits the sun\\\" becomes \\\"Jupiter orbits the Sun\\\" in the standalone rewrite.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"object\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"\\\"it orbits the sun\\\" becomes\"}]},{\"claim_id\":\"c037\",\"text\":\"Discourse context still exists.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"while discourse context still exists\"}]},{\"claim_id\":\"c038\",\"text\":\"Qualifiers stay attached (P1/P5).\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"Qualifiers stay attached (P1/P5)\"}]},{\"claim_id\":\"c039\",\"text\":\"Time, units, and conditions are part of the claim.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"time, units, conditions are part\"}]},{\"claim_id\":\"c040\",\"text\":\"Classification tags each claim with one of the seven claim kinds (02-meta-ontology).\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"},{\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"Classification. Tag each claim with\"}]},{\"claim_id\":\"c041\",\"text\":\"There is an open question about whether mentions also get proposed subject-kind tags at extraction.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"Open: do mentions also get\"}]},{\"claim_id\":\"c042\",\"text\":\"Admission may overrule proposed subject-kind tags.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"actor\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"admission may overrule — or\"}]},{\"claim_id\":\"c043\",\"text\":\"It is open whether kind assignment is admission's job entirely.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"is kind assignment admission's job\"}]},{\"claim_id\":\"c044\",\"text\":\"Within-document dedup merges repeated source assertions to one claim, weight 1.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"},{\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"Within-document dedup. The same source\"}]},{\"claim_id\":\"c045\",\"text\":\"Corroboration is cross-source only (P2).\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"corroboration is cross-source only\"}]},{\"claim_id\":\"c046\",\"text\":\"Repetition count may ride along as metadata.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"Repetition count may ride along\"}]},{\"claim_id\":\"c047\",\"text\":\"Repetition count is never weight.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"it is never weight\"}]},{\"claim_id\":\"c048\",\"text\":\"Bundle lint is deterministic validation before emit.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"Bundle lint. Deterministic validation before\"}]},{\"claim_id\":\"c049\",\"text\":\"Every claim has provenance (I3).\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"every claim has provenance (I3)\"}]},{\"claim_id\":\"c050\",\"text\":\"No claim references graph structure (I2).\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"no claim references graph structure\"}]},{\"claim_id\":\"c051\",\"text\":\"Bundle lint includes standalone test spot-checks.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"standalone test spot-checks; kind tag\"}]},{\"claim_id\":\"c052\",\"text\":\"Every claim has a kind tag present.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"kind tag present\"}]},{\"claim_id\":\"c053\",\"text\":\"Bundle lint rejects or repairs before shipping.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Stages\"]},\"quote\":\"Reject or repair before shipping\"}]},{\"claim_id\":\"c054\",\"text\":\"The bundle payload working floor is not the final shape.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Bundle payload (working floor — final shape belongs to the type model)\"]},\"quote\":\"Bundle payload (working floor\"}]},{\"claim_id\":\"c055\",\"text\":\"The final shape belongs to the type model.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Bundle payload (working floor — final shape belongs to the type model)\"]},\"quote\":\"final shape belongs to the\"}]},{\"claim_id\":\"c056\",\"text\":\"The bundle payload includes document identity plus per-claim text, kind, explicit|inferred, and evidence base if inferred, location in source, mentions, and within-doc repetition count.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Bundle payload (working floor — final shape belongs to the type model)\"]},\"quote\":\"Document identity + per claim\"}]},{\"claim_id\":\"c057\",\"text\":\"The bundle payload includes exact mention shape TBD.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"},{\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Bundle payload (working floor — final shape belongs to the type model)\"]},\"quote\":\"mentions ⧠ (exact mention shape\"}]},{\"claim_id\":\"c058\",\"text\":\"There is an open question about whether mention shape is plain strings or spans with offsets.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Open questions\"]},\"quote\":\"Mention shape: plain strings, or\"}]},{\"claim_id\":\"c059\",\"text\":\"There is an open question about whether subject-kind proposals at extraction are yes or no at stage 4.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Open questions\"]},\"quote\":\"Subject-kind proposals at extraction: yes/no\"}]},{\"claim_id\":\"c060\",\"text\":\"There is an open question about whether stages 1–3 are one model pass or three.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Open questions\"]},\"quote\":\"Are stages 1–3 one model\"}]},{\"claim_id\":\"c061\",\"text\":\"The scaffold assumes stages 1–3 are logically distinct.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Open questions\"]},\"quote\":\"Scaffold assumes logically distinct\"}]},{\"claim_id\":\"c062\",\"text\":\"Implementation may fuse stages 1–3.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"actor\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Open questions\"]},\"quote\":\"implementation may fuse them\"}]},{\"claim_id\":\"c063\",\"text\":\"There are prior spelunk findings on prior extraction prompts.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_object\",\"kind_hint\":\"event\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Open questions\"]},\"quote\":\"Compare against spelunk findings\"}]},{\"claim_id\":\"c064\",\"text\":\"There is an open question about S/V/O predicate structure in the payload.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Open questions\"]},\"quote\":\"S/V/O predicate structure in the\"}]},{\"claim_id\":\"c065\",\"text\":\"S/V/O predicate structure was parked earlier.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Open questions\"]},\"quote\":\"parked earlier, decide in the\"}]},{\"claim_id\":\"c066\",\"text\":\"S/V/O predicate structure is to be decided in the type model.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"},{\"role\":\"g_object\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Open questions\"]},\"quote\":\"decide in the type model\"}]},{\"claim_id\":\"c067\",\"text\":\"Atomicity makes S/V/O predicate structure cheap.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Open questions\"]},\"quote\":\"Atomicity makes it cheap\"}]},{\"claim_id\":\"c068\",\"text\":\"Grammatical subject does not equal canon subject.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Open questions\"]},\"quote\":\"grammatical subject ≠ canon subject\"}]},{\"claim_id\":\"c069\",\"text\":\"Grammatical subject ≠ canon subject keeps it P3-legal.\",\"assertion\":\"explicit\",\"mentions\":[{\"role\":\"g_subject\",\"kind_hint\":\"concept\"}],\"provenance\":[{\"shard_id\":\"dc531d36-50b2-4290-aa1a-d5ef173e76f4\",\"locator\":{\"heading_path\":[\"Open questions\"]},\"quote\":\"keeps it P3-legal.\"}]}]}"
+          },
+          "output": {
+            "claims": [],
+            "warnings": []
+          },
+          "prompt": "Source unit id: dc531d36-50b2-4290-aa1a-d5ef173e76f4\n\nSource unit:\n\"\"\"\n---\nid: memoria-extraction-cycle-scaffold\ntype: reference\ndescription: Superseded Memoria extraction cycle scaffold retained for open bundle schema questions.\ncreated: \"2026-07-06\"\nupdated: \"2026-07-06\"\nstate: superseded\nstatus: developing\ndepends-on:\n  - memoria-distillation-cycle\n  - memoria-meta-ontology\n---\n\n# Extraction Cycle — Scaffold\n\n_**Superseded 2026-07-04** by Phase 2 of\n[05-distillation-cycle.md](05-distillation-cycle.md) (steps renamed\nCapture / Inference / Assembly; sharding moved to Preparation; atomization\nand classification folded into the passes; dedup and lint into Assembly).\nKept for the open ⧠ items below, which transfer to the bundle schema\ndiscussion. Original scaffold text follows unchanged._\n\n**Contract.** One clean markdown document in (with stable document\nidentity from preparation), one bundle out. Stateless (I5): no memory of\nthe graph, no hints from it, no structure in the output (I2). Extraction\nis the model-heavy zone of the system — its discipline comes not from\ndeterminism but from P1's tests constraining what it may emit.\n\n## Stages\n\n1. **Explicit claim pass.** Read the document; capture every assertion the\n   text actually makes, with location provenance per claim.\n2. **Inferred claim pass.** Capture assertions that follow from the text\n   but are not stated — including the invisible middle claims of causal\n   language (\"X because Y\" ⇒ Y caused X). Every inferred claim is flagged\n   `inferred` and carries the explicit claims it derives from as its\n   evidence base (P6).\n3. **Atomization.** Apply P1's three tests to every claim: split compounds,\n   verify single truth value by negation, rewrite until standalone.\n   The standalone rewrite is where coreference gets resolved — \"it orbits\n   the sun\" becomes \"Jupiter orbits the Sun\" here, while discourse context\n   still exists. Qualifiers stay attached (P1/P5): time, units, conditions\n   are part of the claim.\n4. **Classification.** Tag each claim with one of the seven claim kinds\n   (02-meta-ontology). ⧠ Open: do mentions also get proposed subject-kind\n   tags (actor/object/concept/event) here, as *suggestions* admission may\n   overrule — or is kind assignment admission's job entirely?\n5. **Within-document dedup.** The same source asserting a claim repeatedly\n   merges to one claim, weight 1 (P2 — corroboration is cross-source only).\n   Repetition count may ride along as metadata; it is never weight.\n6. **Bundle lint.** Deterministic validation before emit: every claim has\n   provenance (I3); no claim references graph structure (I2); standalone\n   test spot-checks; kind tag present. Reject or repair before shipping.\n\n## Bundle payload (working floor — final shape belongs to the type model)\n\nDocument identity + per claim: text, kind, `explicit|inferred` (+ evidence\nbase if inferred), location in source, mentions ⧠ (exact mention shape\nTBD), within-doc repetition count.\n\n## Open questions\n\n- ⧠ Mention shape: plain strings, or spans with offsets?\n- ⧠ Subject-kind proposals at extraction: yes/no (stage 4).\n- ⧠ Are stages 1–3 one model pass or three? (Scaffold assumes logically\n  distinct; implementation may fuse them. Compare against spelunk\n  findings on prior extraction prompts.)\n- ⧠ S/V/O predicate structure in the payload: parked earlier, decide in\n  the type model. Atomicity makes it cheap; grammatical subject ≠ canon\n  subject keeps it P3-legal.\n\n\"\"\"\n\nList every explicit claim in this source unit as claim drafts.",
+          "status": "completed",
+          "system": "You are the explicit-claims step in a claim-extraction pipeline. Your one job: list every claim this source unit states outright.\n\n## Task\nRead the source unit top to bottom and output one claim draft per distinct factual assertion it makes. A paragraph usually contains several assertions. Tables, lists, and captions contain assertions too.\n\n## Rules\n- Use only what the source unit says. No outside knowledge, no inference.\n- Prefer the source's own wording. Keep qualifiers (time, quantity, units, conditions, scope) inside the claim text.\n- A draft may still be compound; splitting happens in a later step. Missing an assertion is the only failure.\n- Do not summarize, select highlights, deduplicate, resolve mentions, or add commentary.\n- Set assertion to \"explicit\" on every draft.\n\n## Output fields\n- claim_id: sequential document-local ids c001, c002, c003, ...\n- text: the claim, qualifiers included.\n- assertion: \"explicit\".\n- mentions: unresolved surface references from the claim text, each with role (g_subject | g_object | other) and kind_hint (actor | object | concept | event).\n- provenance: exactly one entry — shard_id set to this source unit's id, locator with heading_path, and quote set to the first words of the supporting passage, copied verbatim, 8 words maximum.",
+          "attempt": 3,
+          "latencyMs": 97510,
+          "startedAt": "2026-07-06T16:22:44.616Z",
+          "tokenUsage": {
+            "last": {
+              "inputTokens": 18262,
+              "totalTokens": 24918,
+              "outputTokens": 6656,
+              "cachedInputTokens": 4480,
+              "reasoningOutputTokens": 158
+            },
+            "total": {
+              "inputTokens": 18262,
+              "totalTokens": 24918,
+              "outputTokens": 6656,
+              "cachedInputTokens": 4480,
+              "reasoningOutputTokens": 158
+            },
+            "modelContextWindow": 258400
+          },
+          "completedAt": "2026-07-06T16:24:22.126Z",
+          "finishReason": "completed",
+          "sourceUnitId": "dc531d36-50b2-4290-aa1a-d5ef173e76f4"
+        }
+      ],
+      "error": "Extraction run was stopped"
+    },
+    "result_summary": {},
+    "claim_count": 0,
+    "token_usage": {
+      "modelContextWindow": 775200
+    },
+    "latency_ms": 300751,
+    "cost": {},
+    "error_message": "Extraction run was stopped",
+    "started_at": "2026-07-06T16:19:21.222Z",
+    "completed_at": "2026-07-06T16:24:22.203Z",
+    "created_at": "2026-07-06T16:19:19.298Z",
+    "updated_at": "2026-07-06T16:24:22.203Z",
+    "retry_count": 2
+  },
+  {
+    "id": "b5c0db99-d63b-471d-971f-f9b43cda6b30",
+    "run_id": "aaf40c77-9372-41c9-92c3-68052ee61541",
+    "step": "inferred_pass",
+    "step_order": 2,
+    "status": "pending",
+    "model": null,
+    "prompt_version": null,
+    "effort": null,
+    "input_context": {},
+    "raw_output": {},
+    "result_summary": {},
+    "claim_count": 0,
+    "token_usage": {},
+    "latency_ms": null,
+    "cost": {},
+    "error_message": null,
+    "started_at": null,
+    "completed_at": null,
+    "created_at": "2026-07-06T16:19:19.298Z",
+    "updated_at": "2026-07-06T16:19:19.298Z",
+    "retry_count": 0
+  },
+  {
+    "id": "87211efe-4dcd-49ad-89fd-41fe96cf66b3",
+    "run_id": "aaf40c77-9372-41c9-92c3-68052ee61541",
+    "step": "atomization",
+    "step_order": 3,
+    "status": "pending",
+    "model": null,
+    "prompt_version": null,
+    "effort": null,
+    "input_context": {},
+    "raw_output": {},
+    "result_summary": {},
+    "claim_count": 0,
+    "token_usage": {},
+    "latency_ms": null,
+    "cost": {},
+    "error_message": null,
+    "started_at": null,
+    "completed_at": null,
+    "created_at": "2026-07-06T16:19:19.298Z",
+    "updated_at": "2026-07-06T16:19:19.298Z",
+    "retry_count": 0
+  },
+  {
+    "id": "c67cb47d-4455-4aba-b416-66e9946468d3",
+    "run_id": "aaf40c77-9372-41c9-92c3-68052ee61541",
+    "step": "modality_classification",
+    "step_order": 4,
+    "status": "pending",
+    "model": null,
+    "prompt_version": null,
+    "effort": null,
+    "input_context": {},
+    "raw_output": {},
+    "result_summary": {},
+    "claim_count": 0,
+    "token_usage": {},
+    "latency_ms": null,
+    "cost": {},
+    "error_message": null,
+    "started_at": null,
+    "completed_at": null,
+    "created_at": "2026-07-06T16:19:19.298Z",
+    "updated_at": "2026-07-06T16:19:19.298Z",
+    "retry_count": 0
+  }
+]
